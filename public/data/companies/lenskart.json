@@ -1,0 +1,1 @@
+{"name":"Lenskart","slug":"lenskart","timeframes":{"thirtyDays":[],"threeMonths":[],"sixMonths":[{"l":"valid-number","t":"Valid Number","d":"HARD","f":100,"a":0.0023813237806407793,"tp":["String"]}],"moreThanSixMonths":[],"all":[{"l":"valid-number","t":"Valid Number","d":"HARD","f":100,"a":0.0023813237806407793,"tp":["String"]}]}}

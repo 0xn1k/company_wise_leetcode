@@ -1,0 +1,1 @@
+{"name":"Amadeus","slug":"amadeus","timeframes":{"thirtyDays":[],"threeMonths":[],"sixMonths":[],"moreThanSixMonths":[{"l":"valid-anagram","t":"Valid Anagram","d":"EASY","f":100,"a":0.006876752358139071,"tp":["Hash Table","String","Sorting"]}],"all":[{"l":"valid-anagram","t":"Valid Anagram","d":"EASY","f":100,"a":0.006876754223751168,"tp":["Hash Table","String","Sorting"]}]}}

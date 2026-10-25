@@ -1,0 +1,1 @@
+{"name":"PayU","slug":"payu","timeframes":{"thirtyDays":[],"threeMonths":[],"sixMonths":[],"moreThanSixMonths":[],"all":[{"l":"count-operations-to-obtain-zero","t":"Count Operations to Obtain Zero","d":"EASY","f":100,"a":0.007980554049964918,"tp":["Math","Simulation"]}]}}

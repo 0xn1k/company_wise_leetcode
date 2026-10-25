@@ -1,0 +1,1 @@
+{"name":"Houzz","slug":"houzz","timeframes":{"thirtyDays":[],"threeMonths":[],"sixMonths":[],"moreThanSixMonths":[],"all":[{"l":"remove-9","t":"Remove 9","d":"HARD","f":100,"a":0.005724797277004705,"tp":["Math"]},{"l":"basic-calculator-iii","t":"Basic Calculator III","d":"HARD","f":100,"a":0.0053578528493796376,"tp":["Math","String","Stack","Recursion"]}]}}

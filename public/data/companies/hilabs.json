@@ -1,0 +1,1 @@
+{"name":"HiLabs","slug":"hilabs","timeframes":{"thirtyDays":[],"threeMonths":[],"sixMonths":[],"moreThanSixMonths":[],"all":[{"l":"maximize-the-number-of-partitions-after-operations","t":"Maximize the Number of Partitions After Operations","d":"HARD","f":100,"a":0.005315059350717453,"tp":["String","Dynamic Programming","Bit Manipulation","Bitmask"]}]}}

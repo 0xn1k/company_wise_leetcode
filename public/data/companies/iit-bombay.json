@@ -1,0 +1,1 @@
+{"name":"IIT Bombay","slug":"iit-bombay","timeframes":{"thirtyDays":[],"threeMonths":[],"sixMonths":[],"moreThanSixMonths":[],"all":[{"l":"score-after-flipping-matrix","t":"Score After Flipping Matrix","d":"MEDIUM","f":100,"a":0.008030150521747161,"tp":["Array","Greedy","Bit Manipulation","Matrix"]}]}}
