@@ -5,6 +5,9 @@ import { EmptyState } from "@/components/shared/empty-state";
 export const metadata = {
   title: "AI Interview Questions",
   description: "Interview questions from AI companies — coming soon.",
+  // Thin placeholder content — keep it out of the index until it's built out,
+  // so it doesn't drag down the site's overall quality signal.
+  robots: { index: false },
 };
 
 const AI_COMPANIES = ["OpenAI", "Anthropic", "Google DeepMind", "Microsoft", "xAI", "Mistral"];

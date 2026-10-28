@@ -7,6 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { SidebarNav } from "@/components/shared/sidebar-nav";
 import { Footer } from "@/components/shared/footer";
 import { BookmarkReminderModal } from "@/components/shared/bookmark-reminder-modal";
+import { JsonLd } from "@/components/shared/json-ld";
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from "@/lib/site-config";
 
 const geistSans = Geist({
@@ -34,6 +35,9 @@ export const metadata: Metadata = {
     "technical interview questions",
     "DSA practice",
   ],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     url: SITE_URL,
@@ -59,6 +63,29 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`dark ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex">
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: SITE_NAME,
+            url: SITE_URL,
+            description: SITE_DESCRIPTION,
+            potentialAction: {
+              "@type": "SearchAction",
+              target: `${SITE_URL}/companies?q={search_term_string}`,
+              "query-input": "required name=search_term_string",
+            },
+          }}
+        />
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: SITE_NAME,
+            url: SITE_URL,
+            logo: `${SITE_URL}/icon.svg`,
+          }}
+        />
         <TooltipProvider>
           <SidebarNav />
           <div className="flex min-h-screen w-full min-w-0 flex-1 flex-col">

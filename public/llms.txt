@@ -1,0 +1,29 @@
+# Company-Wise LeetCode
+
+> A free tracker for LeetCode interview prep, organized by company. Browse
+> 470 companies' most-asked interview questions, filtered by how recently
+> each question was reported (last 30 days, 3 months, 6 months, 6+ months,
+> all time), ranked by frequency, and tagged by difficulty and topic. The
+> question list is updated regularly from public sources — it is not a
+> one-time snapshot.
+
+Company-Wise LeetCode helps software engineers prepare for technical
+interviews by showing exactly which LeetCode questions a specific company
+(e.g. Google, Amazon, Meta, Microsoft, OpenAI) has actually asked, instead
+of studying questions at random. Each question links to its LeetCode
+problem page. Visitors can mark questions solved, bookmark questions for
+later, and track focused progress against a shortlist of companies they are
+interviewing with.
+
+## Key pages
+
+- [Dashboard](https://company-wise-leetcode.vercel.app/): overview, progress tracking, and companies you're preparing for.
+- [Companies](https://company-wise-leetcode.vercel.app/companies): browse all 470 companies with interview question lists.
+- [All Questions](https://company-wise-leetcode.vercel.app/questions): every unique question across all companies, deduplicated and searchable.
+- [AI Interview Questions](https://company-wise-leetcode.vercel.app/ai-interview): interview questions from AI companies (OpenAI, Anthropic, Google DeepMind, Microsoft, xAI, Mistral) — in progress.
+
+## Notes for assistants
+
+- Each company has its own URL at `/companies/<slug>` (e.g. `/companies/google`, `/companies/meta`, `/companies/amazon`), listing that company's questions by frequency and recency.
+- Question frequency and recency data is sourced from public LeetCode company-tag aggregations and is refreshed periodically, not static.
+- The site is free, requires no login, and stores a visitor's solved/bookmarked state locally in their browser.

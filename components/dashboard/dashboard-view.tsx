@@ -9,6 +9,7 @@ import { ProgressPanel } from "@/components/dashboard/progress-panel";
 import { PreparingForList } from "@/components/prep/preparing-for-list";
 import { CompanyPickerDialog } from "@/components/prep/company-picker-dialog";
 import { FeaturedLogos } from "@/components/shared/featured-logos";
+import { FaqSection } from "@/components/dashboard/faq-section";
 import { useCompaniesIndex } from "@/lib/data/use-companies-index";
 import { useQuestionsIndex } from "@/lib/data/use-questions-index";
 import { useMounted } from "@/lib/utils/use-mounted";
@@ -73,6 +74,8 @@ export function DashboardView() {
           </div>
           <PreparingForList companies={companies} />
         </div>
+
+        <FaqSection />
       </div>
 
       <div className="space-y-4">

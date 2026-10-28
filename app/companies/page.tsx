@@ -1,9 +1,11 @@
+import { Suspense } from "react";
 import { CompaniesBrowser } from "@/components/company/companies-browser";
 import { getCompaniesIndex } from "@/lib/data/get-companies-index";
 
 export const metadata = {
   title: "Companies",
   description: "Browse 470 companies and their most-asked LeetCode interview questions.",
+  alternates: { canonical: "/companies" },
 };
 
 export default function CompaniesPage() {
@@ -17,7 +19,9 @@ export default function CompaniesPage() {
           Browse {companies.length} companies and their LeetCode question lists.
         </p>
       </div>
-      <CompaniesBrowser companies={companies} />
+      <Suspense fallback={null}>
+        <CompaniesBrowser companies={companies} />
+      </Suspense>
     </div>
   );
 }

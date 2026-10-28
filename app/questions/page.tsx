@@ -4,6 +4,7 @@ export const metadata = {
   title: "All Questions",
   description:
     "Every unique LeetCode question asked across 470 companies, searchable and filterable by difficulty.",
+  alternates: { canonical: "/questions" },
 };
 
 export default function QuestionsPage() {
