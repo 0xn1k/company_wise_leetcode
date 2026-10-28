@@ -8,6 +8,7 @@ import { ActivityHeatmap } from "@/components/dashboard/activity-heatmap";
 import { ProgressPanel } from "@/components/dashboard/progress-panel";
 import { PreparingForList } from "@/components/prep/preparing-for-list";
 import { CompanyPickerDialog } from "@/components/prep/company-picker-dialog";
+import { FeaturedLogos } from "@/components/shared/featured-logos";
 import { useCompaniesIndex } from "@/lib/data/use-companies-index";
 import { useQuestionsIndex } from "@/lib/data/use-questions-index";
 import { useMounted } from "@/lib/utils/use-mounted";
@@ -52,6 +53,8 @@ export function DashboardView() {
             </div>
           </motion.div>
         </div>
+
+        <FeaturedLogos />
 
         <Card className="p-5">
           <h2 className="mb-3 text-sm font-medium">Activity</h2>

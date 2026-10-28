@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SidebarNav } from "@/components/shared/sidebar-nav";
 import { Footer } from "@/components/shared/footer";
+import { BookmarkReminderModal } from "@/components/shared/bookmark-reminder-modal";
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from "@/lib/site-config";
 
 const geistSans = Geist({
@@ -65,6 +68,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
         </TooltipProvider>
+        <BookmarkReminderModal />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

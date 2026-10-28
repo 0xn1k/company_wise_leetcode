@@ -11,6 +11,7 @@ import {
   Bookmark,
   Target,
   Search,
+  Sparkles,
 } from "lucide-react";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
@@ -23,6 +24,7 @@ const LINKS = [
   { href: "/questions", label: "Questions", icon: SearchCode },
   { href: "/bookmarks", label: "Bookmarks", icon: Bookmark },
   { href: "/prep", label: "Preparing for", icon: Target },
+  { href: "/ai-interview", label: "AI Interview Questions", icon: Sparkles },
 ];
 
 export function SidebarNav() {
